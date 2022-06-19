@@ -1,0 +1,29 @@
+﻿<Page x:Class="DormManage.View.Move_admin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DormManage.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="590" d:DesignWidth="900"
+      Title="Move_admin">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="540" VerticalAlignment="Top" Width="900" Margin="0,50,0,0">
+            <DataGrid Grid.Row="0" AutoGenerateColumns="False" Name="Datagrid1"  CanUserAddRows="False" CanUserDeleteRows="False" FontSize="20" FontWeight="Bold" Height="540">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="学号" Binding="{Binding studentnumber}" Width="150"/>
+                    <DataGridTextColumn Header="姓名" Binding="{Binding studentname}" Width="80"/>
+                    <DataGridTextColumn Header="意向苑区" Binding="{Binding area}" Width="100"/>
+                    <DataGridTextColumn Header="意向楼号" Binding="{Binding build}" Width="100"/>
+                    <DataGridTextColumn Header="意向房间号" Binding="{Binding room}" Width="110" />
+                    <DataGridTextColumn Header="情况说明" Binding="{Binding description}" Width="310" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+        <Label Content="学号：" HorizontalAlignment="Left" Margin="29,5,0,0" VerticalAlignment="Top" Width="62" FontWeight="Bold" FontSize="20"/>
+        <TextBox x:Name="TextBox_studentnumber" HorizontalAlignment="Left" Height="28" Margin="91,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" FontSize="20"/>
+        <Button Content="查询" HorizontalAlignment="Left" Margin="345,10,0,0" VerticalAlignment="Top" Width="110" Height="28" FontSize="20" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="删除" HorizontalAlignment="Left" Margin="520,10,0,0" VerticalAlignment="Top" Width="120" Height="28" FontSize="20" FontWeight="Bold" Click="Button_Click_1"/>
+    </Grid>
+</Page>

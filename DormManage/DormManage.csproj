@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0D57DE5A-1AD8-4717-B3F5-6C7DBB906188}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DormManage</RootNamespace>
+    <AssemblyName>DormManage</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="admin.cs">
+      <DependentUpon>DormManageModel.tt</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="change.cs">
+      <DependentUpon>DormManageModel.tt</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="complain_admin.cs">
+      <DependentUpon>DormManageModel.tt</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="complain_dorm.cs">
+      <DependentUpon>DormManageModel.tt</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Connection\IndexData_student.cs" />
+    <Compile Include="Connection\PayData_admin.cs" />
+    <Compile Include="DataMethod\AdminQuery.cs" />
+    <Compile Include="DataMethod\ComplainAdd.cs" />
+    <Compile Include="DataMethod\ComplainlistOperation.cs" />
+    <Compile Include="DataMethod\ComplainQuery.cs" />
+    <Compile Include="DataMethod\DormlistOperation.cs" />
+    <Compile Include="DataMethod\DormQuery.cs" />
+    <Compile Include="DataMethod\ElectricityAdd.cs" />
+    <Compile Include="DataMethod\ElectricityQuery.cs" />
+    <Compile Include="DataMethod\LoginAdd.cs" />
+    <Compile Include="DataMethod\LoginQuery.cs" />
+    <Compile Include="DataMethod\MoveAdd.cs" />
+    <Compile Include="DataMethod\MovelistOperation.cs" />
+    <Compile Include="DataMethod\MoveQuery.cs" />
+    <Compile Include="DataMethod\NoticelistOperation.cs" />
+    <Compile Include="DataMethod\NoticeQuery.cs" />
+    <Compile Include="DataMethod\PasswordChange.cs" />
+    <Compile Include="DataMethod\RepairAdd.cs" />
+    <Compile Include="DataMethod\RepairlistOperation.cs" />
+    <Compile Include="DataMethod\RepairQuery.cs" />
+    <Compile Include="DataMethod\SaveInfo.cs" />
+    <Compile Include="DataMethod\StudentlistOperation.cs" />
+    <Compile Include="DataMethod\StudentQuery.cs" />
+    <Compile Include="DataMethod\WaterAdd.cs" />
+    <Compile Include="DataMethod\WaterQuery.cs" />
+    <Compile Include="dorm.cs">
+      <DependentUpon>DormManageModel.tt</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="DormManageModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DormManageModel.Context.tt</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="DormManageModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DormManageModel.tt</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="DormManageModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DormManageModel.edmx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="electricity.cs">
+      <DependentUpon>DormManageModel.tt</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="HelpClass\NowTime.cs" />
+    <Compile Include="login_admin.cs">
+      <DependentUpon>DormManageModel.tt</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="login_student.cs">
+      <DependentUpon>DormManageModel.tt</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="notice.cs">
+      <DependentUpon>DormManageModel.tt</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="repair.cs">
+      <DependentUpon>DormManageModel.tt</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="student.cs">
+      <DependentUpon>DormManageModel.tt</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ViewModel\IndexInterface_student.cs" />
+    <Compile Include="ViewModel\PayInterface_admin.cs" />
+    <Compile Include="View\AddDorm.xaml.cs">
+      <DependentUpon>AddDorm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddStudent.xaml.cs">
+      <DependentUpon>AddStudent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Complain_admin.xaml.cs">
+      <DependentUpon>Complain_admin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Complain_student.xaml.cs">
+      <DependentUpon>Complain_student.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Dormlist_admin.xaml.cs">
+      <DependentUpon>Dormlist_admin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Index_student.xaml.cs">
+      <DependentUpon>Index_student.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Main_admin.xaml.cs">
+      <DependentUpon>Main_admin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Main_student.xaml.cs">
+      <DependentUpon>Main_student.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Move_admin.xaml.cs">
+      <DependentUpon>Move_admin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Move_student.xaml.cs">
+      <DependentUpon>Move_student.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Notice_admin.xaml.cs">
+      <DependentUpon>Notice_admin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pay_admin.xaml.cs">
+      <DependentUpon>Pay_admin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pay_student.xaml.cs">
+      <DependentUpon>Pay_student.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RenewDorm.xaml.cs">
+      <DependentUpon>RenewDorm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RenewStudent.xaml.cs">
+      <DependentUpon>RenewStudent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Repair_admin.xaml.cs">
+      <DependentUpon>Repair_admin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Repair_student.xaml.cs">
+      <DependentUpon>Repair_student.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Setting_admin.xaml.cs">
+      <DependentUpon>Setting_admin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Setting_student.xaml.cs">
+      <DependentUpon>Setting_student.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ShowPicture.xaml.cs">
+      <DependentUpon>ShowPicture.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Studentlist_admin.xaml.cs">
+      <DependentUpon>Studentlist_admin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="water.cs">
+      <DependentUpon>DormManageModel.tt</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Page Include="View\AddDorm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AddStudent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Complain_admin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Complain_student.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Dormlist_admin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Index_student.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Login.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="View\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="View\Main_admin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Main_student.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Move_admin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Move_student.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Notice_admin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Pay_admin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Pay_student.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RenewDorm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RenewStudent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Repair_admin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Repair_student.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Setting_admin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Setting_student.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ShowPicture.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Studentlist_admin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EntityDeploy Include="DormManageModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DormManageModel.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EntityDeploy>
+    <None Include="DormManageModel.edmx.diagram">
+      <DependentUpon>DormManageModel.edmx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DormManageData.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DormManageData_log.ldf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <DependentUpon>DormManageData.mdf</DependentUpon>
+    </Content>
+    <Content Include="DormManageModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DormManageModel.Context.cs</LastGenOutput>
+      <DependentUpon>DormManageModel.edmx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DormManageModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DormManageModel.edmx</DependentUpon>
+      <LastGenOutput>DormManageModel.cs</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Picture\dorm.png" />
+    <Resource Include="Picture\money1.png" />
+    <Resource Include="Picture\notice.png" />
+    <Resource Include="Picture\student.png" />
+    <Resource Include="money.png" />
+    <Resource Include="Picture\change.png" />
+    <Resource Include="Picture\edit.png" />
+    <Resource Include="Picture\my.png" />
+    <Resource Include="Picture\repair.png" />
+    <Resource Include="Picture\sad.png" />
+    <Resource Include="Picture\money.png" />
+    <Resource Include="Picture\henu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

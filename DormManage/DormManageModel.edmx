@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DormManageDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="admin">
+          <Key>
+            <PropertyRef Name="adminnumber" />
+          </Key>
+          <Property Name="adminnumber" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="adminname" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="build" Type="int" Nullable="false" />
+          <Property Name="picture" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="change">
+          <Key>
+            <PropertyRef Name="studentnumber" />
+          </Key>
+          <Property Name="studentnumber" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="studentname" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="build" Type="int" Nullable="false" />
+          <Property Name="room" Type="int" Nullable="false" />
+          <Property Name="description" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="complain_admin">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="build" Type="int" Nullable="false" />
+          <Property Name="admin" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="description" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="complain_dorm">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="build" Type="int" Nullable="false" />
+          <Property Name="room" Type="int" Nullable="false" />
+          <Property Name="description" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="dorm">
+          <Key>
+            <PropertyRef Name="area" />
+            <PropertyRef Name="build" />
+            <PropertyRef Name="room" />
+          </Key>
+          <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="build" Type="int" Nullable="false" />
+          <Property Name="room" Type="int" Nullable="false" />
+          <Property Name="dormtype" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="peoplenumber" Type="int" Nullable="false" />
+          <Property Name="dormheader" Type="nvarchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <EntityType Name="electricity">
+          <Key>
+            <PropertyRef Name="area" />
+            <PropertyRef Name="build" />
+            <PropertyRef Name="room" />
+          </Key>
+          <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="build" Type="int" Nullable="false" />
+          <Property Name="room" Type="int" Nullable="false" />
+          <Property Name="money" Type="float" Nullable="false" />
+          <Property Name="month1" Type="float" />
+          <Property Name="month2" Type="float" />
+          <Property Name="month3" Type="float" />
+          <Property Name="month4" Type="float" />
+        </EntityType>
+        <EntityType Name="login_admin">
+          <Key>
+            <PropertyRef Name="adminnumber" />
+          </Key>
+          <Property Name="adminnumber" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="login_student">
+          <Key>
+            <PropertyRef Name="studentnumber" />
+          </Key>
+          <Property Name="studentnumber" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="notice">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="content" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="date" Type="datetime" Nullable="false" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="repair">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="build" Type="int" Nullable="false" />
+          <Property Name="room" Type="int" Nullable="false" />
+          <Property Name="type" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="date" Type="date" Nullable="false" />
+          <Property Name="phone" Type="varchar" MaxLength="11" Nullable="false" />
+          <Property Name="picture" Type="varbinary(max)" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="student">
+          <Key>
+            <PropertyRef Name="studentnumber" />
+          </Key>
+          <Property Name="studentnumber" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="studentname" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="build" Type="int" Nullable="false" />
+          <Property Name="room" Type="int" Nullable="false" />
+          <Property Name="picture" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="water">
+          <Key>
+            <PropertyRef Name="area" />
+            <PropertyRef Name="build" />
+            <PropertyRef Name="room" />
+          </Key>
+          <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="build" Type="int" Nullable="false" />
+          <Property Name="room" Type="int" Nullable="false" />
+          <Property Name="money" Type="float" Nullable="false" />
+          <Property Name="month1" Type="float" />
+          <Property Name="month2" Type="float" />
+          <Property Name="month3" Type="float" />
+          <Property Name="month4" Type="float" />
+        </EntityType>
+        <EntityContainer Name="DormManageDataModelStoreContainer">
+          <EntitySet Name="admin" EntityType="Self.admin" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="change" EntityType="Self.change" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="complain_admin" EntityType="Self.complain_admin" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="complain_dorm" EntityType="Self.complain_dorm" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="dorm" EntityType="Self.dorm" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="electricity" EntityType="Self.electricity" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="login_admin" EntityType="Self.login_admin" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="login_student" EntityType="Self.login_student" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="notice" EntityType="Self.notice" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="repair" EntityType="Self.repair" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="student" EntityType="Self.student" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="water" EntityType="Self.water" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DormManageDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="admin">
+          <Key>
+            <PropertyRef Name="adminnumber" />
+          </Key>
+          <Property Name="adminnumber" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="adminname" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="build" Type="Int32" Nullable="false" />
+          <Property Name="picture" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="change">
+          <Key>
+            <PropertyRef Name="studentnumber" />
+          </Key>
+          <Property Name="studentnumber" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="studentname" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="build" Type="Int32" Nullable="false" />
+          <Property Name="room" Type="Int32" Nullable="false" />
+          <Property Name="description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="complain_admin">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="build" Nullable="false" Type="Int32" />
+          <Property Name="admin" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="complain_dorm">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="build" Nullable="false" Type="Int32" />
+          <Property Name="room" Type="Int32" Nullable="false" />
+          <Property Name="description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="dorm">
+          <Key>
+            <PropertyRef Name="area" />
+            <PropertyRef Name="build" />
+            <PropertyRef Name="room" />
+          </Key>
+          <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="build" Type="Int32" Nullable="false" />
+          <Property Name="room" Type="Int32" Nullable="false" />
+          <Property Name="dormtype" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="peoplenumber" Type="Int32" Nullable="false" />
+          <Property Name="dormheader" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="electricity">
+          <Key>
+            <PropertyRef Name="area" />
+            <PropertyRef Name="build" />
+            <PropertyRef Name="room" />
+          </Key>
+          <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="build" Type="Int32" Nullable="false" />
+          <Property Name="room" Type="Int32" Nullable="false" />
+          <Property Name="money" Type="Double" Nullable="false" />
+          <Property Name="month1" Type="Double" />
+          <Property Name="month2" Type="Double" />
+          <Property Name="month3" Type="Double" />
+          <Property Name="month4" Type="Double" />
+        </EntityType>
+        <EntityType Name="login_admin">
+          <Key>
+            <PropertyRef Name="adminnumber" />
+          </Key>
+          <Property Name="adminnumber" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="login_student">
+          <Key>
+            <PropertyRef Name="studentnumber" />
+          </Key>
+          <Property Name="studentnumber" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="notice">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="content" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="repair">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="build" Type="Int32" Nullable="false" />
+          <Property Name="room" Type="Int32" Nullable="false" />
+          <Property Name="type" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="phone" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="picture" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="student">
+          <Key>
+            <PropertyRef Name="studentnumber" />
+          </Key>
+          <Property Name="studentnumber" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="studentname" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="build" Type="Int32" Nullable="false" />
+          <Property Name="room" Type="Int32" Nullable="false" />
+          <Property Name="picture" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="water">
+          <Key>
+            <PropertyRef Name="area" />
+            <PropertyRef Name="build" />
+            <PropertyRef Name="room" />
+          </Key>
+          <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="build" Type="Int32" Nullable="false" />
+          <Property Name="room" Type="Int32" Nullable="false" />
+          <Property Name="money" Type="Double" Nullable="false" />
+          <Property Name="month1" Type="Double" />
+          <Property Name="month2" Type="Double" />
+          <Property Name="month3" Type="Double" />
+          <Property Name="month4" Type="Double" />
+        </EntityType>
+        <EntityContainer Name="DormManageDataEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="admin" EntityType="Self.admin" />
+          <EntitySet Name="change" EntityType="Self.change" />
+          <EntitySet Name="complain_admin" EntityType="Self.complain_admin" />
+          <EntitySet Name="complain_dorm" EntityType="Self.complain_dorm" />
+          <EntitySet Name="dorm" EntityType="Self.dorm" />
+          <EntitySet Name="electricity" EntityType="Self.electricity" />
+          <EntitySet Name="login_admin" EntityType="Self.login_admin" />
+          <EntitySet Name="login_student" EntityType="Self.login_student" />
+          <EntitySet Name="notice" EntityType="Self.notice" />
+          <EntitySet Name="repair" EntityType="Self.repair" />
+          <EntitySet Name="student" EntityType="Self.student" />
+          <EntitySet Name="water" EntityType="Self.water" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DormManageDataModelStoreContainer" CdmEntityContainer="DormManageDataEntities">
+          <EntitySetMapping Name="admin">
+            <EntityTypeMapping TypeName="DormManageDataModel.admin">
+              <MappingFragment StoreEntitySet="admin">
+                <ScalarProperty Name="adminnumber" ColumnName="adminnumber" />
+                <ScalarProperty Name="adminname" ColumnName="adminname" />
+                <ScalarProperty Name="area" ColumnName="area" />
+                <ScalarProperty Name="build" ColumnName="build" />
+                <ScalarProperty Name="picture" ColumnName="picture" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="change">
+            <EntityTypeMapping TypeName="DormManageDataModel.change">
+              <MappingFragment StoreEntitySet="change">
+                <ScalarProperty Name="studentnumber" ColumnName="studentnumber" />
+                <ScalarProperty Name="studentname" ColumnName="studentname" />
+                <ScalarProperty Name="area" ColumnName="area" />
+                <ScalarProperty Name="build" ColumnName="build" />
+                <ScalarProperty Name="room" ColumnName="room" />
+                <ScalarProperty Name="description" ColumnName="description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="complain_admin">
+            <EntityTypeMapping TypeName="DormManageDataModel.complain_admin">
+              <MappingFragment StoreEntitySet="complain_admin">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="area" ColumnName="area" />
+                <ScalarProperty Name="build" ColumnName="build" />
+                <ScalarProperty Name="admin" ColumnName="admin" />
+                <ScalarProperty Name="description" ColumnName="description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="complain_dorm">
+            <EntityTypeMapping TypeName="DormManageDataModel.complain_dorm">
+              <MappingFragment StoreEntitySet="complain_dorm">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="area" ColumnName="area" />
+                <ScalarProperty Name="build" ColumnName="build" />
+                <ScalarProperty Name="room" ColumnName="room" />
+                <ScalarProperty Name="description" ColumnName="description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dorm">
+            <EntityTypeMapping TypeName="DormManageDataModel.dorm">
+              <MappingFragment StoreEntitySet="dorm">
+                <ScalarProperty Name="area" ColumnName="area" />
+                <ScalarProperty Name="build" ColumnName="build" />
+                <ScalarProperty Name="room" ColumnName="room" />
+                <ScalarProperty Name="dormtype" ColumnName="dormtype" />
+                <ScalarProperty Name="peoplenumber" ColumnName="peoplenumber" />
+                <ScalarProperty Name="dormheader" ColumnName="dormheader" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="electricity">
+            <EntityTypeMapping TypeName="DormManageDataModel.electricity">
+              <MappingFragment StoreEntitySet="electricity">
+                <ScalarProperty Name="area" ColumnName="area" />
+                <ScalarProperty Name="build" ColumnName="build" />
+                <ScalarProperty Name="room" ColumnName="room" />
+                <ScalarProperty Name="money" ColumnName="money" />
+                <ScalarProperty Name="month1" ColumnName="month1" />
+                <ScalarProperty Name="month2" ColumnName="month2" />
+                <ScalarProperty Name="month3" ColumnName="month3" />
+                <ScalarProperty Name="month4" ColumnName="month4" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="login_admin">
+            <EntityTypeMapping TypeName="DormManageDataModel.login_admin">
+              <MappingFragment StoreEntitySet="login_admin">
+                <ScalarProperty Name="adminnumber" ColumnName="adminnumber" />
+                <ScalarProperty Name="password" ColumnName="password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="login_student">
+            <EntityTypeMapping TypeName="DormManageDataModel.login_student">
+              <MappingFragment StoreEntitySet="login_student">
+                <ScalarProperty Name="studentnumber" ColumnName="studentnumber" />
+                <ScalarProperty Name="password" ColumnName="password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="notice">
+            <EntityTypeMapping TypeName="DormManageDataModel.notice">
+              <MappingFragment StoreEntitySet="notice">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="content" ColumnName="content" />
+                <ScalarProperty Name="date" ColumnName="date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="repair">
+            <EntityTypeMapping TypeName="DormManageDataModel.repair">
+              <MappingFragment StoreEntitySet="repair">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="area" ColumnName="area" />
+                <ScalarProperty Name="build" ColumnName="build" />
+                <ScalarProperty Name="room" ColumnName="room" />
+                <ScalarProperty Name="type" ColumnName="type" />
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="picture" ColumnName="picture" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="student">
+            <EntityTypeMapping TypeName="DormManageDataModel.student">
+              <MappingFragment StoreEntitySet="student">
+                <ScalarProperty Name="studentnumber" ColumnName="studentnumber" />
+                <ScalarProperty Name="studentname" ColumnName="studentname" />
+                <ScalarProperty Name="area" ColumnName="area" />
+                <ScalarProperty Name="build" ColumnName="build" />
+                <ScalarProperty Name="room" ColumnName="room" />
+                <ScalarProperty Name="picture" ColumnName="picture" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="water">
+            <EntityTypeMapping TypeName="DormManageDataModel.water">
+              <MappingFragment StoreEntitySet="water">
+                <ScalarProperty Name="area" ColumnName="area" />
+                <ScalarProperty Name="build" ColumnName="build" />
+                <ScalarProperty Name="room" ColumnName="room" />
+                <ScalarProperty Name="money" ColumnName="money" />
+                <ScalarProperty Name="month1" ColumnName="month1" />
+                <ScalarProperty Name="month2" ColumnName="month2" />
+                <ScalarProperty Name="month3" ColumnName="month3" />
+                <ScalarProperty Name="month4" ColumnName="month4" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

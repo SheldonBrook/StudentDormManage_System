@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DormManageDataModelStoreContainer" CdmEntityContainer="DormManageDataEntities">
+    <EntitySetMapping Name="admin">
+      <EntityTypeMapping TypeName="DormManageDataModel.admin">
+        <MappingFragment StoreEntitySet="admin">
+          <ScalarProperty Name="adminnumber" ColumnName="adminnumber" />
+          <ScalarProperty Name="adminname" ColumnName="adminname" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="build" ColumnName="build" />
+          <ScalarProperty Name="picture" ColumnName="picture" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="change">
+      <EntityTypeMapping TypeName="DormManageDataModel.change">
+        <MappingFragment StoreEntitySet="change">
+          <ScalarProperty Name="studentnumber" ColumnName="studentnumber" />
+          <ScalarProperty Name="studentname" ColumnName="studentname" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="build" ColumnName="build" />
+          <ScalarProperty Name="room" ColumnName="room" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="complain_admin">
+      <EntityTypeMapping TypeName="DormManageDataModel.complain_admin">
+        <MappingFragment StoreEntitySet="complain_admin">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="build" ColumnName="build" />
+          <ScalarProperty Name="admin" ColumnName="admin" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="complain_dorm">
+      <EntityTypeMapping TypeName="DormManageDataModel.complain_dorm">
+        <MappingFragment StoreEntitySet="complain_dorm">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="build" ColumnName="build" />
+          <ScalarProperty Name="room" ColumnName="room" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dorm">
+      <EntityTypeMapping TypeName="DormManageDataModel.dorm">
+        <MappingFragment StoreEntitySet="dorm">
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="build" ColumnName="build" />
+          <ScalarProperty Name="room" ColumnName="room" />
+          <ScalarProperty Name="dormtype" ColumnName="dormtype" />
+          <ScalarProperty Name="peoplenumber" ColumnName="peoplenumber" />
+          <ScalarProperty Name="dormheader" ColumnName="dormheader" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="electricity">
+      <EntityTypeMapping TypeName="DormManageDataModel.electricity">
+        <MappingFragment StoreEntitySet="electricity">
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="build" ColumnName="build" />
+          <ScalarProperty Name="room" ColumnName="room" />
+          <ScalarProperty Name="money" ColumnName="money" />
+          <ScalarProperty Name="month1" ColumnName="month1" />
+          <ScalarProperty Name="month2" ColumnName="month2" />
+          <ScalarProperty Name="month3" ColumnName="month3" />
+          <ScalarProperty Name="month4" ColumnName="month4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="login_admin">
+      <EntityTypeMapping TypeName="DormManageDataModel.login_admin">
+        <MappingFragment StoreEntitySet="login_admin">
+          <ScalarProperty Name="adminnumber" ColumnName="adminnumber" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="login_student">
+      <EntityTypeMapping TypeName="DormManageDataModel.login_student">
+        <MappingFragment StoreEntitySet="login_student">
+          <ScalarProperty Name="studentnumber" ColumnName="studentnumber" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="notice">
+      <EntityTypeMapping TypeName="DormManageDataModel.notice">
+        <MappingFragment StoreEntitySet="notice">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="repair">
+      <EntityTypeMapping TypeName="DormManageDataModel.repair">
+        <MappingFragment StoreEntitySet="repair">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="build" ColumnName="build" />
+          <ScalarProperty Name="room" ColumnName="room" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="picture" ColumnName="picture" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="student">
+      <EntityTypeMapping TypeName="DormManageDataModel.student">
+        <MappingFragment StoreEntitySet="student">
+          <ScalarProperty Name="studentnumber" ColumnName="studentnumber" />
+          <ScalarProperty Name="studentname" ColumnName="studentname" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="build" ColumnName="build" />
+          <ScalarProperty Name="room" ColumnName="room" />
+          <ScalarProperty Name="picture" ColumnName="picture" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="water">
+      <EntityTypeMapping TypeName="DormManageDataModel.water">
+        <MappingFragment StoreEntitySet="water">
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="build" ColumnName="build" />
+          <ScalarProperty Name="room" ColumnName="room" />
+          <ScalarProperty Name="money" ColumnName="money" />
+          <ScalarProperty Name="month1" ColumnName="month1" />
+          <ScalarProperty Name="month2" ColumnName="month2" />
+          <ScalarProperty Name="month3" ColumnName="month3" />
+          <ScalarProperty Name="month4" ColumnName="month4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

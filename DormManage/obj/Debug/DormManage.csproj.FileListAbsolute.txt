@@ -1,0 +1,406 @@
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\bin\Debug\DormManage.exe.config
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\bin\Debug\DormManage.exe
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\bin\Debug\DormManage.pdb
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\DormManage.csproj.AssemblyReference.cache
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Login.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\App.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\DormManage_MarkupCompile.cache
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\DormManage_MarkupCompile.lref
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Login.baml
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\DormManage.g.resources
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\DormManage.Properties.Resources.resources
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\DormManage.csproj.GenerateResource.cache
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\DormManage.csproj.CoreCompileInputs.cache
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\DormManage.exe
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\DormManage.pdb
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Main_student.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Main_student.baml
+C:\Users\HNDX\Desktop\DormManage\DormManage\bin\Debug\DormManage.exe.config
+C:\Users\HNDX\Desktop\DormManage\DormManage\bin\Debug\DormManage.exe
+C:\Users\HNDX\Desktop\DormManage\DormManage\bin\Debug\DormManage.pdb
+C:\Users\HNDX\Desktop\DormManage\DormManage\obj\Debug\DormManage.csprojAssemblyReference.cache
+C:\Users\HNDX\Desktop\DormManage\DormManage\obj\Debug\View\Login.g.cs
+C:\Users\HNDX\Desktop\DormManage\DormManage\obj\Debug\View\Main_student.g.cs
+C:\Users\HNDX\Desktop\DormManage\DormManage\obj\Debug\App.g.cs
+C:\Users\HNDX\Desktop\DormManage\DormManage\obj\Debug\DormManage_MarkupCompile.cache
+C:\Users\HNDX\Desktop\DormManage\DormManage\obj\Debug\DormManage_MarkupCompile.lref
+C:\Users\HNDX\Desktop\DormManage\DormManage\obj\Debug\View\Login.baml
+C:\Users\HNDX\Desktop\DormManage\DormManage\obj\Debug\View\Main_student.baml
+C:\Users\HNDX\Desktop\DormManage\DormManage\obj\Debug\DormManage.g.resources
+C:\Users\HNDX\Desktop\DormManage\DormManage\obj\Debug\DormManage.Properties.Resources.resources
+C:\Users\HNDX\Desktop\DormManage\DormManage\obj\Debug\DormManage.csproj.GenerateResource.cache
+C:\Users\HNDX\Desktop\DormManage\DormManage\obj\Debug\DormManage.csproj.CoreCompileInputs.cache
+C:\Users\HNDX\Desktop\DormManage\DormManage\obj\Debug\DormManage.exe
+C:\Users\HNDX\Desktop\DormManage\DormManage\obj\Debug\DormManage.pdb
+C:\Users\HNDX\Desktop\DormManage\DormManage\obj\Debug\View\Index_student.g.cs
+C:\Users\HNDX\Desktop\DormManage\DormManage\obj\Debug\View\Index_student.baml
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Index_student.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Index_student.baml
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Pay_student.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Pay_student.baml
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Repair_student.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Repair_student.baml
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Complain_student.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Complain_student.baml
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Move_student.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Move_student.baml
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Setting_student.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Setting_student.baml
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Main_admin.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Main_admin.baml
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Complain_admin.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Dormlist_admin.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Move_admin.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Pay_admin.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Repair_admin.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Setting_admin.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Studentlist_admin.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Complain_admin.baml
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Dormlist_admin.baml
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Move_admin.baml
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Pay_admin.baml
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Repair_admin.baml
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Setting_admin.baml
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Studentlist_admin.baml
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Notice_admin.g.cs
+D:\Softwares\Visual Studio 2019\DormManage\DormManage\obj\Debug\View\Notice_admin.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\DormManageData.mdf
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\DormManageData_log.ldf
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\DormManage.exe.config
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\DormManage.exe
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\DormManage.pdb
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Complain_admin.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Complain_student.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Dormlist_admin.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Index_student.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Login.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Main_admin.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Main_student.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Move_admin.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Move_student.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Notice_admin.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Pay_admin.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Pay_student.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Repair_admin.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Repair_student.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Setting_admin.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Setting_student.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Studentlist_admin.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\App.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\DormManage_Content.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\DormManage_MarkupCompile.cache
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\DormManage_MarkupCompile.lref
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Complain_admin.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Complain_student.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Dormlist_admin.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Index_student.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Login.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Main_admin.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Main_student.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Move_admin.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Move_student.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Notice_admin.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Pay_admin.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Pay_student.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Repair_admin.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Repair_student.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Setting_admin.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Setting_student.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\Studentlist_admin.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\DormManage.g.resources
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\DormManage.Properties.Resources.resources
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\DormManage.csproj.GenerateResource.cache
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\DormManage.csproj.CoreCompileInputs.cache
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\DormManage.exe
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\DormManage.pdb
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\EntityFramework.dll
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\EntityFramework.SqlServer.dll
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\EntityFramework.xml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\EntityFramework.SqlServer.xml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\DormManage.csproj.CopyComplete
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\DormManageModel.Context.tt
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\DormManageModel.tt
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\admin.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\change.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\complain_admin.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\complain_dorm.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\dorm.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\DormManageModel.Context.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\DormManageModel.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\DormManageModel.Designer.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\electricity.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\login_admin.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\login_student.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\notice.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\repair.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\student.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\water.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\DormManageModel.edmx.diagram
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\bin\Debug\packages.config
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\DormManage.csproj.AssemblyReference.cache
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\AddDorm.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\AddDorm.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\RenewDorm.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\RenewDorm.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\AddStudent.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\RenewStudent.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\AddStudent.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\RenewStudent.baml
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\ShowPicture.g.cs
+D:\学习专用\C#程序设计\参考程序\DormManage\DormManage\obj\Debug\View\ShowPicture.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\DormManageData.mdf
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\DormManageData_log.ldf
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\DormManageModel.Context.tt
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\DormManageModel.tt
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\admin.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\change.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\complain_admin.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\complain_dorm.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\dorm.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\DormManageModel.Context.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\DormManageModel.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\DormManageModel.Designer.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\electricity.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\login_admin.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\login_student.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\notice.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\repair.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\student.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\water.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\DormManageModel.edmx.diagram
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\packages.config
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\DormManage.exe.config
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\DormManage.exe
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\DormManage.pdb
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\EntityFramework.dll
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\EntityFramework.xml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\DormManage.csproj.AssemblyReference.cache
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\AddDorm.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\AddStudent.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Complain_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Complain_student.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Dormlist_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Index_student.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Login.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Main_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Main_student.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Move_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Move_student.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Notice_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Pay_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Pay_student.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\RenewDorm.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\RenewStudent.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Repair_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Repair_student.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Setting_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Setting_student.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\ShowPicture.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Studentlist_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\App.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\DormManage_Content.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\DormManage_MarkupCompile.cache
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\DormManage_MarkupCompile.lref
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\AddDorm.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\AddStudent.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Complain_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Complain_student.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Dormlist_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Index_student.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Login.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Main_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Main_student.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Move_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Move_student.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Notice_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Pay_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Pay_student.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\RenewDorm.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\RenewStudent.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Repair_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Repair_student.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Setting_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Setting_student.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\ShowPicture.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\View\Studentlist_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\DormManage.g.resources
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\DormManage.Properties.Resources.resources
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\DormManage.csproj.GenerateResource.cache
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\DormManage.csproj.CoreCompileInputs.cache
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\DormManage.csproj.CopyComplete
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\DormManage.exe
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\DormManage\DormManage\obj\Debug\DormManage.pdb
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\DormManageData.mdf
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\DormManageData_log.ldf
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\DormManageModel.Context.tt
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\DormManageModel.tt
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\admin.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\change.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\complain_admin.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\complain_dorm.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\dorm.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\DormManageModel.Context.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\DormManageModel.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\DormManageModel.Designer.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\electricity.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\login_admin.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\login_student.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\notice.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\repair.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\student.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\water.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\DormManageModel.edmx.diagram
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\packages.config
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\DormManage.exe.config
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\DormManage.exe
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\DormManage.pdb
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\EntityFramework.dll
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\EntityFramework.xml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\DormManage.csproj.AssemblyReference.cache
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\AddDorm.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\AddStudent.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Complain_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Complain_student.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Dormlist_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Index_student.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Login.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Main_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Main_student.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Move_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Move_student.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Notice_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Pay_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Pay_student.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\RenewDorm.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\RenewStudent.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Repair_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Repair_student.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Setting_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Setting_student.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\ShowPicture.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Studentlist_admin.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\App.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\DormManage_Content.g.cs
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\DormManage_MarkupCompile.cache
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\DormManage_MarkupCompile.lref
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\AddDorm.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\AddStudent.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Complain_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Complain_student.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Dormlist_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Index_student.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Login.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Main_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Main_student.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Move_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Move_student.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Notice_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Pay_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Pay_student.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\RenewDorm.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\RenewStudent.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Repair_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Repair_student.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Setting_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Setting_student.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\ShowPicture.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\View\Studentlist_admin.baml
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\DormManage.g.resources
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\DormManage.Properties.Resources.resources
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\DormManage.csproj.GenerateResource.cache
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\DormManage.csproj.CoreCompileInputs.cache
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\DormManage.csproj.CopyComplete
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\DormManage.exe
+C:\Users\Ienovo\Desktop\7班C#大作业\1924240036-谢昊宸\源代码\DormManage\DormManage\obj\Debug\DormManage.pdb
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\DormManageData.mdf
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\DormManageData_log.ldf
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\DormManageModel.Context.tt
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\DormManageModel.tt
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\admin.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\change.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\complain_admin.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\complain_dorm.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\dorm.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\DormManageModel.Context.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\DormManageModel.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\DormManageModel.Designer.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\electricity.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\login_admin.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\login_student.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\notice.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\repair.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\student.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\water.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\DormManageModel.edmx.diagram
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\packages.config
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\DormManage.exe.config
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\DormManage.exe
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\DormManage.pdb
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\EntityFramework.dll
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\EntityFramework.SqlServer.dll
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\EntityFramework.xml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\EntityFramework.SqlServer.xml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\DormManage.csproj.AssemblyReference.cache
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\AddDorm.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\AddStudent.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Complain_admin.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Complain_student.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Dormlist_admin.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Index_student.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Login.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Main_admin.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Main_student.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Move_admin.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Move_student.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Notice_admin.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Pay_admin.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Pay_student.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\RenewDorm.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\RenewStudent.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Repair_admin.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Repair_student.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Setting_admin.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Setting_student.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\ShowPicture.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Studentlist_admin.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\App.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\DormManage_Content.g.cs
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\DormManage_MarkupCompile.cache
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\DormManage_MarkupCompile.lref
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\AddDorm.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\AddStudent.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Complain_admin.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Complain_student.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Dormlist_admin.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Index_student.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Login.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Main_admin.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Main_student.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Move_admin.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Move_student.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Notice_admin.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Pay_admin.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Pay_student.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\RenewDorm.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\RenewStudent.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Repair_admin.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Repair_student.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Setting_admin.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Setting_student.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\ShowPicture.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\View\Studentlist_admin.baml
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\DormManage.g.resources
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\DormManage.Properties.Resources.resources
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\DormManage.csproj.GenerateResource.cache
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\DormManage.csproj.CoreCompileInputs.cache
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\DormManage.csproj.CopyComplete
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\DormManage.exe
+D:\学习专用\2021-2022学期上\C#程序设计\参考程序\DormManage(v4.0)\DormManage\obj\Debug\DormManage.pdb

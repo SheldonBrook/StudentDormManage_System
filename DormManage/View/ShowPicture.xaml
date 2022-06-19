@@ -1,0 +1,12 @@
+﻿<Window x:Class="DormManage.View.ShowPicture"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DormManage.View"
+        mc:Ignorable="d"
+        Title="图片展示" Height="481.4" Width="463.2" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Image x:Name="Image" HorizontalAlignment="Left" Height="432" Margin="0,10,-0.2,0" VerticalAlignment="Top" Width="457"/>
+    </Grid>
+</Window>

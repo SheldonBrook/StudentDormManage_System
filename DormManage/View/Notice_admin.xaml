@@ -1,0 +1,26 @@
+﻿<Page x:Class="DormManage.View.Notice_admin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DormManage.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="590" d:DesignWidth="900"
+      Title="Notice_admin">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="480" Margin="0,110,0,0" VerticalAlignment="Top" Width="900">
+            <DataGrid AutoGenerateColumns="False" x:Name="Datagrid1"  CanUserAddRows="False" CanUserDeleteRows="False" FontSize="20" FontWeight="Bold" Height="480">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="通知内容" Binding="{Binding content}" Width="550"/>
+                    <DataGridTextColumn Header="通知日期" Binding="{Binding date}" Width="290" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+        <Label Content="通知编辑：" HorizontalAlignment="Left" Margin="25,35,0,0" VerticalAlignment="Top" Width="105" FontWeight="Bold" FontSize="20"/>
+        <TextBox x:Name="TextBox_content" HorizontalAlignment="Left" Height="75" Margin="135,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="610" FontSize="20"/>
+        <Button Content="发布" HorizontalAlignment="Left" Margin="780,15,0,0" VerticalAlignment="Top" Width="85" Height="28" FontSize="20" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="删除" HorizontalAlignment="Left" Margin="780,62,0,0" VerticalAlignment="Top" Width="85" Height="28" FontSize="20" FontWeight="Bold" Click="Button_Click_1"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DormManageDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="admin">
+    <Key>
+      <PropertyRef Name="adminnumber" />
+    </Key>
+    <Property Name="adminnumber" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="adminname" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="build" Type="Int32" Nullable="false" />
+    <Property Name="picture" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="change">
+    <Key>
+      <PropertyRef Name="studentnumber" />
+    </Key>
+    <Property Name="studentnumber" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="studentname" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="build" Type="Int32" Nullable="false" />
+    <Property Name="room" Type="Int32" Nullable="false" />
+    <Property Name="description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="complain_admin">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="build" Nullable="false" Type="Int32" />
+    <Property Name="admin" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="complain_dorm">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="build" Nullable="false" Type="Int32" />
+    <Property Name="room" Type="Int32" Nullable="false" />
+    <Property Name="description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="dorm">
+    <Key>
+      <PropertyRef Name="area" />
+      <PropertyRef Name="build" />
+      <PropertyRef Name="room" />
+    </Key>
+    <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="build" Type="Int32" Nullable="false" />
+    <Property Name="room" Type="Int32" Nullable="false" />
+    <Property Name="dormtype" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="peoplenumber" Type="Int32" Nullable="false" />
+    <Property Name="dormheader" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="electricity">
+    <Key>
+      <PropertyRef Name="area" />
+      <PropertyRef Name="build" />
+      <PropertyRef Name="room" />
+    </Key>
+    <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="build" Type="Int32" Nullable="false" />
+    <Property Name="room" Type="Int32" Nullable="false" />
+    <Property Name="money" Type="Double" Nullable="false" />
+    <Property Name="month1" Type="Double" />
+    <Property Name="month2" Type="Double" />
+    <Property Name="month3" Type="Double" />
+    <Property Name="month4" Type="Double" />
+  </EntityType>
+  <EntityType Name="login_admin">
+    <Key>
+      <PropertyRef Name="adminnumber" />
+    </Key>
+    <Property Name="adminnumber" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="login_student">
+    <Key>
+      <PropertyRef Name="studentnumber" />
+    </Key>
+    <Property Name="studentnumber" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="notice">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="content" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="repair">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="build" Type="Int32" Nullable="false" />
+    <Property Name="room" Type="Int32" Nullable="false" />
+    <Property Name="type" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="phone" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="picture" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="student">
+    <Key>
+      <PropertyRef Name="studentnumber" />
+    </Key>
+    <Property Name="studentnumber" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="studentname" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="build" Type="Int32" Nullable="false" />
+    <Property Name="room" Type="Int32" Nullable="false" />
+    <Property Name="picture" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="water">
+    <Key>
+      <PropertyRef Name="area" />
+      <PropertyRef Name="build" />
+      <PropertyRef Name="room" />
+    </Key>
+    <Property Name="area" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="build" Type="Int32" Nullable="false" />
+    <Property Name="room" Type="Int32" Nullable="false" />
+    <Property Name="money" Type="Double" Nullable="false" />
+    <Property Name="month1" Type="Double" />
+    <Property Name="month2" Type="Double" />
+    <Property Name="month3" Type="Double" />
+    <Property Name="month4" Type="Double" />
+  </EntityType>
+  <EntityContainer Name="DormManageDataEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="admin" EntityType="Self.admin" />
+    <EntitySet Name="change" EntityType="Self.change" />
+    <EntitySet Name="complain_admin" EntityType="Self.complain_admin" />
+    <EntitySet Name="complain_dorm" EntityType="Self.complain_dorm" />
+    <EntitySet Name="dorm" EntityType="Self.dorm" />
+    <EntitySet Name="electricity" EntityType="Self.electricity" />
+    <EntitySet Name="login_admin" EntityType="Self.login_admin" />
+    <EntitySet Name="login_student" EntityType="Self.login_student" />
+    <EntitySet Name="notice" EntityType="Self.notice" />
+    <EntitySet Name="repair" EntityType="Self.repair" />
+    <EntitySet Name="student" EntityType="Self.student" />
+    <EntitySet Name="water" EntityType="Self.water" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DormManageDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="admin">
+    <Key>
+      <PropertyRef Name="adminnumber" />
+    </Key>
+    <Property Name="adminnumber" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="adminname" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="build" Type="int" Nullable="false" />
+    <Property Name="picture" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="change">
+    <Key>
+      <PropertyRef Name="studentnumber" />
+    </Key>
+    <Property Name="studentnumber" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="studentname" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="build" Type="int" Nullable="false" />
+    <Property Name="room" Type="int" Nullable="false" />
+    <Property Name="description" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="complain_admin">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="build" Type="int" Nullable="false" />
+    <Property Name="admin" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="description" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="complain_dorm">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="build" Type="int" Nullable="false" />
+    <Property Name="room" Type="int" Nullable="false" />
+    <Property Name="description" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="dorm">
+    <Key>
+      <PropertyRef Name="area" />
+      <PropertyRef Name="build" />
+      <PropertyRef Name="room" />
+    </Key>
+    <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="build" Type="int" Nullable="false" />
+    <Property Name="room" Type="int" Nullable="false" />
+    <Property Name="dormtype" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="peoplenumber" Type="int" Nullable="false" />
+    <Property Name="dormheader" Type="nvarchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="electricity">
+    <Key>
+      <PropertyRef Name="area" />
+      <PropertyRef Name="build" />
+      <PropertyRef Name="room" />
+    </Key>
+    <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="build" Type="int" Nullable="false" />
+    <Property Name="room" Type="int" Nullable="false" />
+    <Property Name="money" Type="float" Nullable="false" />
+    <Property Name="month1" Type="float" />
+    <Property Name="month2" Type="float" />
+    <Property Name="month3" Type="float" />
+    <Property Name="month4" Type="float" />
+  </EntityType>
+  <EntityType Name="login_admin">
+    <Key>
+      <PropertyRef Name="adminnumber" />
+    </Key>
+    <Property Name="adminnumber" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="login_student">
+    <Key>
+      <PropertyRef Name="studentnumber" />
+    </Key>
+    <Property Name="studentnumber" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="notice">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="content" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="date" Type="datetime" Nullable="false" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="repair">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="build" Type="int" Nullable="false" />
+    <Property Name="room" Type="int" Nullable="false" />
+    <Property Name="type" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="date" Type="date" Nullable="false" />
+    <Property Name="phone" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="picture" Type="varbinary(max)" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="student">
+    <Key>
+      <PropertyRef Name="studentnumber" />
+    </Key>
+    <Property Name="studentnumber" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="studentname" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="build" Type="int" Nullable="false" />
+    <Property Name="room" Type="int" Nullable="false" />
+    <Property Name="picture" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="water">
+    <Key>
+      <PropertyRef Name="area" />
+      <PropertyRef Name="build" />
+      <PropertyRef Name="room" />
+    </Key>
+    <Property Name="area" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="build" Type="int" Nullable="false" />
+    <Property Name="room" Type="int" Nullable="false" />
+    <Property Name="money" Type="float" Nullable="false" />
+    <Property Name="month1" Type="float" />
+    <Property Name="month2" Type="float" />
+    <Property Name="month3" Type="float" />
+    <Property Name="month4" Type="float" />
+  </EntityType>
+  <EntityContainer Name="DormManageDataModelStoreContainer">
+    <EntitySet Name="admin" EntityType="Self.admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="change" EntityType="Self.change" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="complain_admin" EntityType="Self.complain_admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="complain_dorm" EntityType="Self.complain_dorm" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="dorm" EntityType="Self.dorm" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="electricity" EntityType="Self.electricity" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="login_admin" EntityType="Self.login_admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="login_student" EntityType="Self.login_student" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="notice" EntityType="Self.notice" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="repair" EntityType="Self.repair" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="student" EntityType="Self.student" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="water" EntityType="Self.water" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

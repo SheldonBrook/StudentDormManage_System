@@ -1,0 +1,61 @@
+﻿<Page x:Class="DormManage.View.Complain_admin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DormManage.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="590" d:DesignWidth="900"
+      Title="Complain_admin">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="250" VerticalAlignment="Top" Width="900" Margin="0,40,0,0">
+            <DataGrid Grid.Row="0" AutoGenerateColumns="False" Name="Datagrid1"  CanUserAddRows="False" CanUserDeleteRows="False" FontSize="20" FontWeight="Bold" Height="250">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="苑区" Binding="{Binding area}" Width="80"/>
+                    <DataGridTextColumn Header="楼号" Binding="{Binding build}" Width="80"/>
+                    <DataGridTextColumn Header="房间号" Binding="{Binding room}" Width="80" />
+                    <DataGridTextColumn Header="情况说明" Binding="{Binding description}" Width="600" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+        <Label Content="举报宿舍" HorizontalAlignment="Left" VerticalAlignment="Top" Width="110" FontSize="25" FontWeight="Bold" Foreground="DarkCyan" Height="40"/>
+        <Label Content="举报管理员" HorizontalAlignment="Left" Margin="0,295,0,0" VerticalAlignment="Top" Width="135" FontSize="25" FontWeight="Bold" Foreground="DarkCyan" Height="40"/>
+        <StackPanel HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="900" Margin="0,335,0,0">
+            <DataGrid Grid.Row="0" AutoGenerateColumns="False" x:Name="Datagrid2"  CanUserAddRows="False" CanUserDeleteRows="False" FontSize="20" FontWeight="Bold" Height="255">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="苑区" Binding="{Binding area}" Width="80"/>
+                    <DataGridTextColumn Header="管理楼号" Binding="{Binding build}" Width="100"/>
+                    <DataGridTextColumn Header="管理员姓名" Binding="{Binding admin}" Width="120" />
+                    <DataGridTextColumn Header="情况说明" Binding="{Binding description}" Width="560" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+        <Label Content="苑区：" HorizontalAlignment="Left" Margin="125,5,0,0" VerticalAlignment="Top" Width="62" FontWeight="Bold" FontSize="20"/>
+        <ComboBox x:Name="ComboBox_area_dorm" HorizontalAlignment="Left" Margin="187,7,0,0" VerticalAlignment="Top" Width="88" Height="28" FontSize="20">
+            <ComboBoxItem Content="东苑"/>
+            <ComboBoxItem Content="南苑"/>
+            <ComboBoxItem Content="华苑"/>
+            <ComboBoxItem Content="北苑"/>
+        </ComboBox>
+        <TextBox x:Name="TextBox_build_dorm" HorizontalAlignment="Left" Height="28" Margin="355,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" FontSize="20"/>
+        <Label Content="房间号：" HorizontalAlignment="Left" Margin="438,5,0,0" VerticalAlignment="Top" Width="82" FontWeight="Bold" FontSize="20"/>
+        <TextBox x:Name="TextBox_room" HorizontalAlignment="Left" Height="28" Margin="520,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" FontSize="20"/>
+        <Button Content="查询" HorizontalAlignment="Left" Margin="636,7,0,0" VerticalAlignment="Top" Width="85" Height="28" FontSize="20" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="删除" HorizontalAlignment="Left" Margin="770,7,0,0" VerticalAlignment="Top" Width="85" Height="28" FontSize="20" FontWeight="Bold" Click="Button_Click_1"/>
+        <Label Content="苑区：" HorizontalAlignment="Left" Margin="140,300,0,0" VerticalAlignment="Top" Width="62" FontWeight="Bold" FontSize="20"/>
+        <ComboBox x:Name="ComboBox_area_admin" HorizontalAlignment="Left" Margin="202,302,0,0" VerticalAlignment="Top" Width="88" Height="28" FontSize="20">
+            <ComboBoxItem Content="东苑"/>
+            <ComboBoxItem Content="南苑"/>
+            <ComboBoxItem Content="华苑"/>
+            <ComboBoxItem Content="北苑"/>
+        </ComboBox>
+        <TextBox x:Name="TextBox_build_admin" HorizontalAlignment="Left" Height="28" Margin="395,302,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" FontSize="20"/>
+        <Label Content="姓名:" HorizontalAlignment="Left" Margin="465,299,0,0" VerticalAlignment="Top" Width="55" FontWeight="Bold" FontSize="20"/>
+        <TextBox x:Name="TextBox_admin" HorizontalAlignment="Left" Height="28" Margin="520,302,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" FontSize="20"/>
+        <Button Content="查询" HorizontalAlignment="Left" Margin="646,302,0,0" VerticalAlignment="Top" Width="85" Height="27" FontSize="20" FontWeight="Bold" Click="Button_Click_2"/>
+        <Button Content="删除" HorizontalAlignment="Left" Margin="766,302,0,0" VerticalAlignment="Top" Width="85" Height="27" FontSize="20" FontWeight="Bold" Click="Button_Click_3"/>
+        <Label Content="楼号：" HorizontalAlignment="Left" Margin="296,4,0,0" VerticalAlignment="Top" Width="82" FontWeight="Bold" FontSize="20"/>
+        <Label Content="管理楼号:" HorizontalAlignment="Left" Margin="299,299,0,0" VerticalAlignment="Top" Width="99" FontWeight="Bold" FontSize="20"/>
+    </Grid>
+</Page>

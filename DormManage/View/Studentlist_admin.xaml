@@ -1,0 +1,33 @@
+﻿<Page x:Class="DormManage.View.Studentlist_admin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DormManage.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="590" d:DesignWidth="900"
+      Title="Studentlist_admin">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="530" Margin="0,60,0,0" VerticalAlignment="Top" Width="900">
+            <DataGrid Grid.Row="0" AutoGenerateColumns="False" Name="Datagrid1"  CanUserAddRows="False" CanUserDeleteRows="False" FontSize="20" FontWeight="Bold" Height="530">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="学号" Binding="{Binding studentnumber}" Width="180"/>
+                    <DataGridTextColumn Header="姓名" Binding="{Binding studentname}" Width="120" />
+                    <DataGridTextColumn Header="苑区" Binding="{Binding area}" Width="100"/>
+                    <DataGridTextColumn Header="楼号" Binding="{Binding build}" Width="100"/>
+                    <DataGridTextColumn Header="房间号" Binding="{Binding room}" Width="100" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+        <Label Content="学号：" HorizontalAlignment="Left" Margin="38,10,0,0" VerticalAlignment="Top" Width="62" FontWeight="Bold" FontSize="20"/>
+        <TextBox x:Name="TextBox_studentnumber" HorizontalAlignment="Left" Height="28" Margin="100,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" FontSize="20"/>
+        <Label Content="姓名：" HorizontalAlignment="Left" Margin="310,10,0,0" VerticalAlignment="Top" Width="62" FontWeight="Bold" FontSize="20"/>
+        <TextBox x:Name="TextBox_studentname" HorizontalAlignment="Left" Height="28" Margin="372,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" FontSize="20"/>
+        <Button Content="查询" HorizontalAlignment="Left" Margin="505,15,0,0" VerticalAlignment="Top" Width="65" Height="28" FontSize="20" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="添加" HorizontalAlignment="Left" Margin="600,15,0,0" VerticalAlignment="Top" Width="65" Height="28" FontSize="20" FontWeight="Bold" Click="Button_Click_1"/>
+        <Button Content="删除" HorizontalAlignment="Left" Margin="785,15,0,0" VerticalAlignment="Top" Width="65" Height="28" FontSize="20" FontWeight="Bold" Click="Button_Click_3"/>
+        <Button Content="修改" HorizontalAlignment="Left" Margin="690,15,0,0" VerticalAlignment="Top" Width="65" Height="28" FontSize="20" FontWeight="Bold" Click="Button_Click_2"/>
+
+    </Grid>
+</Page>
